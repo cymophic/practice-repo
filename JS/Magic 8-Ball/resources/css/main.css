@@ -1,0 +1,39 @@
+/* Global */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Title */
+
+.title-bar {
+    display: flex;
+    padding: 10px;
+    border: 1px solid red;
+    align-items: center;
+}
+
+.left-title {
+    margin-left: 25px;
+    display: flex;
+    padding: 10px;
+    border: 1px solid red;
+    align-items: center;
+}
+
+#logo-img {
+    height: 60px;
+    width: auto;
+}
+
+#logo-title {
+    display: flex;
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Body */
