@@ -1,0 +1,1 @@
+students.remove(number3, name3);
