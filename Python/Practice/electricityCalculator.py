@@ -52,9 +52,6 @@ def PowerCalculator():
     print(f"The total voltage based on your input is {w} W\n")
 
 
-
-
-
 ClearTerminal()
 print("Hello, User!")
 time.sleep(1.0)
