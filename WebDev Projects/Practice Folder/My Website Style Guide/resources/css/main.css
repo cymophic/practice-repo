@@ -1,0 +1,130 @@
+/* * {
+    border: 1px solid red !important;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 91%);
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    display: block;
+    top: 20px;
+    z-index: 2;
+
+    height: 165px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+header h1 {
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+    height: 40px;
+    text-align: center;
+    user-select: none;
+}
+
+nav li {
+    display: inline-flex; 
+}
+
+nav a {
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+main {
+    position: relative;
+    top: 167px;
+}
+
+section {
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    height: 100%;
+}
+
+section h1 {
+    /* border: 1px solid red; */
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0 40px;
+    width: 90%;
+    user-select: none;
+}
+
+#sec-sum {
+    margin-top: 18px;
+    display: flex;
+}
+
+#sec-sum h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec-sum p {
+    display: flex;
+    margin: 30px 60px 30px 0;
+    align-items: center;
+    text-align: justify;
+}
+
+#sec-col {
+    margin-top: 18px;
+}
+
+/* Hovers */
+
+header:hover {
+    transform: scale(1.02);
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.18);
+    transition: 0.2s;
+}
+
+nav a:hover {
+    border-radius: 6px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    transition: 0.07s;
+}
+
+section:hover {
+    transform: scale(1.015);
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    transition: 0.2s;
+    z-index: 10;
+}
+
+

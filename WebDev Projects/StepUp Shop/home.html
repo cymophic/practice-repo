@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel=stylesheet href="styles.css" type=text/css>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('ul').toggleClass('active');
+            })
+        })
+    </script>
+    
+    <title> Home | StepUp </title>
+    
+</head>
+    
+<body>
+<div class = "bg">
+<header>
+    
+    <nav>
+        <a href = "home.html" class="branding">
+            <h1>
+                <p>©</p>
+                <span class="highlight">Step</span>
+                <span class="highlight2">Up</span> 
+            </h1>
+            </a>
+
+        <a class = "toggle">MENU</a>
+            <ul class = "">
+            </ul>
+    </nav>
+        
+    <div class = "leftintro">
+        <div class = "tagline">
+            <span class = "jumboword">Raising your <span class= "highlight">worth</span>.</span><br><br>
+            <span class = "miniword">Men's Online Shoe Shop</span>
+        <div class = "hmshopbutton">
+            <br>
+            <a class="active" href = "shop.html"> Get Started </a>
+        </div>
+        </div>
+    </div> 
+</header> 
+</div>
+
+<script>
+    window.confirm("Do you want to continue?");
+    function myFunction() {
+        var txt;
+        if (confirm("Press a button.")) {
+            txt = "You pressed OK!";
+        } else {
+            window.location.assign("home.html");
+        }
+        document.getElementById("demo").innerHTML = txt;
+    }
+</script>
+<script>
+    window.alert("Are you sure?");
+</script>
+</body>    
+</html>

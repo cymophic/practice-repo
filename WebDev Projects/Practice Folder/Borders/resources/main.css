@@ -1,0 +1,89 @@
+body {
+    background-color: #fffcea;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    /* For centering the whole table on the website*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fffcea;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-container {
+    height: 60px;
+    width: 500px;
+    margin-bottom: 40px;
+    margin-top: -50px;
+
+    border-width: 7px;
+    border-color: #ffebb4 #29151c #29151c #ffebb4;
+    border-style: double solid solid double ;
+    background-color: #718351;
+    justify-content: center;
+    text-align: center;
+}
+
+#title {
+    margin-top: 10px;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category {
+    text-align: center;
+    vertical-align: middle;
+
+    /* For condition 1 */
+    width: 200px;
+    padding: 0;
+    margin: 0;
+
+    /* For condition 2 and 3 */
+    border-width: 7px;
+    border-color: #ffebb4 #29151c #29151c #ffebb4;
+    border-style: double solid solid double ;
+}
+
+.category b {
+    border-bottom: 1px solid #ffe8a8;
+    display: block;
+    font-size: x-large;
+    margin: 0;
+    padding: 5px;
+}
+
+.category ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size:larger;
+}
+
+.category li {
+    margin: 0;
+    padding: 5px;
+}
+
+#months {
+    background-color: #225e45;
+}
+
+#animal {
+    background-color: #d37e1e;
+}
+
+#country {
+    background-color: #c04b02;
+}
+
+#foods {
+    background-color: #5f1527;
+}
